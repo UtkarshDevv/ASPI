@@ -75,7 +75,7 @@ export default function About() {
               {/* Portrait */}
               <div className="relative overflow-hidden bg-sand">
                 <img
-                  src="/images/ceo-portrat.jpg"
+                  src="/images/ceo-tobeupload.jpg"
                   alt="Founder & CEO, ASPI Engineering & Interiors"
                   className="w-full h-auto object-cover aspect-[3/4]"
                 />
