@@ -26,34 +26,34 @@ export default function DisciplinesServices({ onOpenConsultation }) {
         </div>
 
         {/* Tabs + Content */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8">
           {/* Sidebar tabs */}
-          <div className="lg:col-span-4 flex flex-row lg:flex-col gap-2 overflow-x-auto lg:overflow-visible pb-2 lg:pb-0">
+          <div className="lg:col-span-4 flex flex-row lg:flex-col gap-2 overflow-x-auto lg:overflow-visible pb-2 lg:pb-0 scrollbar-none">
             {aspiServices.map((s, i) => (
               <button
                 key={s.id}
                 onClick={() => setActiveService(i)}
-                className={`text-left px-5 py-4 text-sm font-medium tracking-wide transition-all duration-300 border whitespace-nowrap ${
+                className={`text-left px-4 sm:px-5 py-3 sm:py-4 text-xs sm:text-sm font-medium tracking-wide transition-all duration-300 border flex-shrink-0 lg:flex-shrink whitespace-nowrap lg:whitespace-normal ${
                   activeService === i
                     ? 'bg-white border-clay text-charcoal shadow-sm'
                     : 'bg-transparent border-transparent text-walnut/60 hover:text-charcoal hover:bg-white/50'
                 }`}
               >
                 <span className="text-terracotta text-xs font-bold mr-2">{s.number}</span>
-                {s.title.length > 35 ? s.title.slice(0, 35) + '…' : s.title}
+                {s.title}
               </button>
             ))}
           </div>
 
           {/* Content panel */}
-          <div className="lg:col-span-8 bg-white border border-linen p-8 sm:p-10">
+          <div className="lg:col-span-8 bg-white border border-linen p-5 sm:p-8 md:p-10">
             <div className="flex items-start gap-3 mb-2">
-              <span className="font-display text-4xl font-light text-clay/40">{service.number}</span>
+              <span className="font-display text-3xl sm:text-4xl font-light text-clay/40 flex-shrink-0">{service.number}</span>
               <div>
-                <h3 className="font-display text-xl sm:text-2xl font-semibold text-charcoal">
+                <h3 className="font-display text-lg sm:text-2xl font-semibold text-charcoal leading-snug">
                   {service.title}
                 </h3>
-                <p className="text-sm italic text-terracotta mt-1">{service.tagline}</p>
+                <p className="text-xs sm:text-sm italic text-terracotta mt-1">{service.tagline}</p>
               </div>
             </div>
 

@@ -69,16 +69,16 @@ export default function PartnersClients() {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2.5 sm:gap-4">
             {clients.map((c) => (
               <div
                 key={c.name}
-                className="group bg-cream border border-linen/60 px-5 py-6 flex flex-col items-center justify-center text-center transition-all duration-300 hover:border-clay/40 hover:shadow-sm"
+                className="group bg-cream border border-linen/60 px-3 sm:px-5 py-4 sm:py-6 flex flex-col items-center justify-center text-center transition-all duration-300 hover:border-clay/40 hover:shadow-sm"
               >
-                <span className="font-display text-base font-semibold text-charcoal group-hover:text-terracotta transition-colors duration-300">
+                <span className="font-display text-sm sm:text-base font-semibold text-charcoal group-hover:text-terracotta transition-colors duration-300">
                   {c.name}
                 </span>
-                <span className="text-[10px] text-walnut/40 tracking-wider uppercase mt-1.5">
+                <span className="text-[9px] sm:text-[10px] text-walnut/40 tracking-wider uppercase mt-1">
                   {c.sector}
                 </span>
               </div>
@@ -134,16 +134,16 @@ export default function PartnersClients() {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 sm:gap-4">
             {partners.map((p) => (
               <div
                 key={p.name}
-                className="group border border-linen bg-cream/40 px-5 py-5 text-center transition-all duration-300 hover:bg-sand/60 hover:border-clay/30"
+                className="group border border-linen bg-cream/40 px-3 sm:px-5 py-3.5 sm:py-5 text-center transition-all duration-300 hover:bg-sand/60 hover:border-clay/30"
               >
-                <span className="font-display text-base font-semibold text-charcoal group-hover:text-terracotta transition-colors duration-300">
+                <span className="font-display text-sm sm:text-base font-semibold text-charcoal group-hover:text-terracotta transition-colors duration-300">
                   {p.name}
                 </span>
-                <p className="text-[10px] text-walnut/40 tracking-wider uppercase mt-1.5">
+                <p className="text-[9px] sm:text-[10px] text-walnut/40 tracking-wider uppercase mt-1">
                   {p.category}
                 </p>
               </div>

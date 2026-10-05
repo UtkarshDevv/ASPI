@@ -38,15 +38,16 @@ export default function ProjectsGallery({ onSelectProject }) {
         </div>
 
         {/* Filters */}
-        <div className="flex flex-wrap justify-center gap-2 mb-8">
+        <div className="flex flex-wrap justify-center gap-1.5 sm:gap-2 mb-8 px-2">
           {categories.map((cat) => (
             <button
               key={cat}
               onClick={() => setActiveFilter(cat)}
-              className={`px-5 py-2 text-xs font-medium tracking-wide uppercase transition-all duration-300 border ${activeFilter === cat
-                ? 'bg-charcoal text-cream border-charcoal'
-                : 'bg-transparent text-walnut border-linen hover:border-clay'
-                }`}
+              className={`px-3 sm:px-5 py-1.5 sm:py-2 text-[11px] sm:text-xs font-medium tracking-wide uppercase transition-all duration-300 border ${
+                activeFilter === cat
+                  ? 'bg-charcoal text-cream border-charcoal'
+                  : 'bg-transparent text-walnut border-linen hover:border-clay'
+              }`}
             >
               {categoryLabels[cat] || cat}
             </button>

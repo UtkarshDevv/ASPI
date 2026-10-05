@@ -53,35 +53,35 @@ export default function Hero({ onOpenConsultation, onScrollToEstimator }) {
             SmartOffice-First Turnkey Delivery
           </p>
 
-          <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-semibold text-charcoal leading-[1.1] mb-6">
+          <h1 className="font-display text-3xl sm:text-5xl lg:text-6xl font-semibold text-charcoal leading-[1.15] mb-5 sm:mb-6">
             Engineered
             <br />
             Workplaces,{' '}
             <span className="text-terracotta italic font-serif font-light">Delivered.</span>
           </h1>
 
-          <p className="text-walnut/80 text-base sm:text-lg leading-relaxed mb-10 max-w-lg">
+          <p className="text-walnut/80 text-sm sm:text-base lg:text-lg leading-relaxed mb-8 sm:mb-10 max-w-lg">
             Premium smart office fit-outs integrating MEP engineering,
             compliance management, and architectural interiors — from concept
             to handover.
           </p>
 
-          <div className="flex flex-wrap gap-4 mb-16">
-            <button onClick={onOpenConsultation} className="btn-primary">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-10 sm:mb-16">
+            <button onClick={onOpenConsultation} className="btn-primary w-full sm:w-auto justify-center">
               Book a Site Audit
               <ArrowRight size={16} />
             </button>
-            <a href="#projects" className="btn-outline">
+            <a href="#projects" className="btn-outline w-full sm:w-auto justify-center">
               View Projects
             </a>
           </div>
 
-          {/* Stats strip */}
-          <div className="flex flex-wrap gap-x-10 gap-y-4 border-t border-linen pt-8">
+          {/* Stats strip - 2x2 on phone, 1x4 on desktop */}
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6 border-t border-linen pt-6 sm:pt-8">
             {stats.map((s) => (
               <div key={s.label}>
-                <span className="font-display text-2xl font-semibold text-charcoal">{s.value}</span>
-                <p className="text-xs text-walnut/60 tracking-wide mt-1">{s.label}</p>
+                <span className="font-display text-xl sm:text-2xl font-semibold text-charcoal">{s.value}</span>
+                <p className="text-[11px] sm:text-xs text-walnut/60 tracking-wide mt-0.5 sm:mt-1">{s.label}</p>
               </div>
             ))}
           </div>

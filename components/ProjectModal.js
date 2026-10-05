@@ -49,8 +49,8 @@ export default function ProjectModal({ project, onClose, onOpenConsultation }) {
         </div>
 
         {/* Content */}
-        <div className="p-8 sm:p-10">
-          <h2 className="font-display text-2xl sm:text-3xl font-semibold text-charcoal mb-2">
+        <div className="p-5 sm:p-8 md:p-10">
+          <h2 className="font-display text-xl sm:text-3xl font-semibold text-charcoal mb-2">
             {project.title}
           </h2>
 

@@ -75,11 +75,11 @@ export default function CostEstimator({ activeUnit = 'sqft', currency = 'INR', o
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 max-w-5xl mx-auto">
           {/* Inputs */}
-          <div className="bg-white border border-linen p-8">
+          <div className="bg-white border border-linen p-5 sm:p-8">
             {/* Project type */}
-            <div className="mb-7">
+            <div className="mb-6 sm:mb-7">
               <label className="text-xs font-semibold tracking-[0.15em] uppercase text-charcoal mb-3 block">
                 Project Type
               </label>
@@ -88,7 +88,7 @@ export default function CostEstimator({ activeUnit = 'sqft', currency = 'INR', o
                   <button
                     key={t.key}
                     onClick={() => setSelectedType(t.key)}
-                    className={`text-left px-4 py-3 text-xs font-medium tracking-wide border transition-all duration-300 ${
+                    className={`text-left px-3 sm:px-4 py-2.5 sm:py-3 text-[11px] sm:text-xs font-medium tracking-wide border transition-all duration-300 ${
                       selectedType === t.key
                         ? 'bg-charcoal text-cream border-charcoal'
                         : 'bg-transparent text-walnut border-linen hover:border-clay'
@@ -101,7 +101,7 @@ export default function CostEstimator({ activeUnit = 'sqft', currency = 'INR', o
             </div>
 
             {/* Finish tier */}
-            <div className="mb-7">
+            <div className="mb-6 sm:mb-7">
               <label className="text-xs font-semibold tracking-[0.15em] uppercase text-charcoal mb-3 block">
                 Finish Level
               </label>
@@ -110,7 +110,7 @@ export default function CostEstimator({ activeUnit = 'sqft', currency = 'INR', o
                   <button
                     key={f.key}
                     onClick={() => setSelectedFinish(f.key)}
-                    className={`flex-1 text-center px-4 py-3 text-xs font-medium tracking-wide border transition-all duration-300 ${
+                    className={`flex-1 text-center px-3 sm:px-4 py-2.5 sm:py-3 text-[11px] sm:text-xs font-medium tracking-wide border transition-all duration-300 ${
                       selectedFinish === f.key
                         ? 'bg-charcoal text-cream border-charcoal'
                         : 'bg-transparent text-walnut border-linen hover:border-clay'
@@ -149,21 +149,21 @@ export default function CostEstimator({ activeUnit = 'sqft', currency = 'INR', o
           </div>
 
           {/* Result */}
-          <div className="bg-charcoal text-cream p-8 flex flex-col justify-between">
+          <div className="bg-charcoal text-cream p-5 sm:p-8 flex flex-col justify-between">
             <div>
-              <p className="text-xs tracking-[0.2em] uppercase text-clay mb-6">Estimated Budget Range</p>
+              <p className="text-xs tracking-[0.2em] uppercase text-clay mb-4 sm:mb-6">Estimated Budget Range</p>
               {estimate && (
                 <>
-                  <div className="mb-8">
-                    <p className="font-display text-3xl sm:text-4xl font-semibold">
+                  <div className="mb-6 sm:mb-8">
+                    <p className="font-display text-2xl sm:text-3xl lg:text-4xl font-semibold break-words">
                       {formatCurrency(estimate.low, currency)} – {formatCurrency(estimate.high, currency)}
                     </p>
-                    <p className="text-sm text-cream/50 mt-2">
+                    <p className="text-xs sm:text-sm text-cream/50 mt-2">
                       Approx. {formatCurrency(estimate.avgRate, currency)}/sq.ft · {estimate.weeks} week timeline
                     </p>
                   </div>
 
-                  <div className="border-t border-white/10 pt-6 mb-6">
+                  <div className="border-t border-white/10 pt-5 sm:pt-6 mb-6">
                     <div className="flex items-start gap-2 text-xs text-cream/40">
                       <HelpCircle size={14} className="mt-0.5 flex-shrink-0" />
                       <span>
@@ -176,7 +176,7 @@ export default function CostEstimator({ activeUnit = 'sqft', currency = 'INR', o
               )}
             </div>
 
-            <button onClick={handleConsult} className="btn-primary bg-terracotta border-terracotta hover:bg-clay text-white w-full justify-center">
+            <button onClick={handleConsult} className="btn-primary bg-terracotta border-terracotta hover:bg-clay text-white w-full justify-center text-xs py-3.5 sm:py-4">
               Request Detailed Proposal
               <ArrowRight size={16} />
             </button>

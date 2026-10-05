@@ -58,12 +58,12 @@ export default function About() {
             </div>
 
             {/* Milestone stats */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-5 mt-10 pt-8 border-t border-linen">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-5 mt-8 sm:mt-10 pt-6 sm:pt-8 border-t border-linen">
               {milestones.map((m) => (
-                <div key={m.label} className="text-center">
-                  <m.icon size={20} className="text-terracotta mx-auto mb-2" />
-                  <p className="font-display text-xl font-semibold text-charcoal">{m.value}</p>
-                  <p className="text-[11px] text-walnut/50 mt-1">{m.label}</p>
+                <div key={m.label} className="text-center p-2">
+                  <m.icon size={18} className="text-terracotta mx-auto mb-1.5 sm:mb-2" />
+                  <p className="font-display text-lg sm:text-xl font-semibold text-charcoal">{m.value}</p>
+                  <p className="text-[10px] sm:text-[11px] text-walnut/50 mt-0.5 sm:mt-1">{m.label}</p>
                 </div>
               ))}
             </div>
@@ -71,7 +71,7 @@ export default function About() {
 
           {/* CEO card */}
           <div className="flex flex-col items-center lg:items-start">
-            <div className="relative w-full max-w-sm mb-8">
+            <div className="relative w-full max-w-[280px] sm:max-w-sm mb-6 sm:mb-8">
               {/* Portrait */}
               <div className="relative overflow-hidden bg-sand">
                 <img

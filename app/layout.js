@@ -1,5 +1,11 @@
 import './globals.css';
 
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+};
+
 export const metadata = {
   title: 'ASPI Engineering & Interiors | Premium Smart Office Fit-Outs & MEP Turnkey Delivery',
   description: 'ASPI (aspi.in) specializes in premium smart office fit-outs, workplace MEP engineering, compliance management, and single-team turnkey project delivery across Gurugram, New Delhi (NCR) and pan-India.',
