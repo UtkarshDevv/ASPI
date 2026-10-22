@@ -5,42 +5,42 @@ import React, { useState } from 'react';
 const galleryImages = [
   {
     src: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=900&q=85',
-    alt: 'Modern corporate office workspace',
+    alt: 'Sumitomo Corporation India - Corporate Workstation Cluster',
     span: 'col-span-2 sm:col-span-2 sm:row-span-2',
   },
   {
     src: 'https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=600&q=85',
-    alt: 'Executive boardroom with glass partitions',
+    alt: 'Mitsubishi Corporation - C-Suite Executive Boardroom',
     span: 'col-span-1 sm:col-span-1 sm:row-span-1',
   },
   {
     src: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=85',
-    alt: 'Collaborative open-plan engineering workspace',
+    alt: 'Publicis Groupe Campus - Agile Workplace Desking',
     span: 'col-span-1 sm:col-span-1 sm:row-span-1',
   },
   {
-    src: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=600&q=85',
-    alt: 'Mission-critical server room installation',
+    src: 'https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=600&q=85',
+    alt: 'The Japan Foundation - Cultural Library & Circulation Portal',
     span: 'col-span-1 sm:col-span-1 sm:row-span-1',
   },
   {
     src: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=85',
-    alt: 'Luxury private banking lounge interior',
+    alt: 'Residential Ashiyana - Luxury Living Salon & Marble Finishes',
     span: 'col-span-1 sm:col-span-1 sm:row-span-2',
   },
   {
     src: 'https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=600&q=85',
-    alt: 'Minimalist office reception area',
+    alt: 'SLC Shimoda Trading - Sleek Reception & Timber Paneling',
     span: 'col-span-1 sm:col-span-1 sm:row-span-1',
   },
   {
-    src: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=600&q=85',
-    alt: 'Healthcare facility interior fit-out',
+    src: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=85',
+    alt: 'Paarth Aadyant Luxury Club - Dining & Louvre Architecture',
     span: 'col-span-1 sm:col-span-1 sm:row-span-1',
   },
   {
-    src: 'https://images.unsplash.com/photo-1555636222-cae831e670b3?auto=format&fit=crop&w=600&q=85',
-    alt: 'Retail experience center design',
+    src: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=600&q=85',
+    alt: 'Lee Store - Commercial Retail Flagship Fit-Out',
     span: 'col-span-1 sm:col-span-1 sm:row-span-1',
   },
 ];

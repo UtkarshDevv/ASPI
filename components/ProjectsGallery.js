@@ -8,12 +8,12 @@ const categories = ['All', ...new Set(projectsData.map((p) => p.categoryKey))];
 
 const categoryLabels = {
   All: 'All Projects',
-  corporate: 'Corporate',
-  datacenter: 'Server Rooms',
-  healthcare: 'Healthcare',
-  banking: 'Banking',
-  retail: 'Retail',
-  industrial: 'Industrial',
+  corporate: 'Corporate Workplaces',
+  commercial: 'Commercial & Cultural',
+  retail: 'Retail & Stores',
+  residential: 'Residential Living',
+  hospitality: 'Hospitality & Clubs',
+  infrastructure: 'Civil Infrastructure',
 };
 
 export default function ProjectsGallery({ onSelectProject }) {
@@ -25,16 +25,19 @@ export default function ProjectsGallery({ onSelectProject }) {
       : projectsData.filter((p) => p.categoryKey === activeFilter);
 
   return (
-    <section id="projects" className="pt-8 pb-4 bg-cream">
+    <section id="projects" className="pt-12 pb-6 bg-cream">
       <div className="section-container">
         {/* Header */}
         <div className="text-center mb-8">
           <p className="text-terracotta text-xs font-semibold tracking-[0.25em] uppercase mb-2">
-            Portfolio
+            100+ Delivered Works • 10,00,000+ Sq. Ft.
           </p>
           <h2 className="font-display text-3xl sm:text-4xl font-semibold text-charcoal">
-            Selected Projects
+            Featured Portfolio
           </h2>
+          <p className="text-walnut/70 text-xs sm:text-sm max-w-xl mx-auto mt-2">
+            Explore authentic turnkey delivery across Fortune Global 500 corporate offices, Japanese multinationals, retail flagships, and luxury living.
+          </p>
         </div>
 
         {/* Filters */}

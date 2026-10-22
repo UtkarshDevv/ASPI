@@ -11,6 +11,7 @@ import PartnersClients from '../components/PartnersClients';
 import CostEstimator from '../components/CostEstimator';
 import ProjectModal from '../components/ProjectModal';
 import ConsultationBookingModal from '../components/ConsultationBookingModal';
+import FloatingContactButtons from '../components/FloatingContactButtons';
 import Footer from '../components/Footer';
 
 export default function Home() {
@@ -75,6 +76,9 @@ export default function Home() {
         onClose={handleCloseConsultation}
         initialData={consultationPrefill}
       />
+
+      {/* Quick floating contact buttons */}
+      <FloatingContactButtons />
     </div>
   );
 }

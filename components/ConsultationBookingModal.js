@@ -68,8 +68,8 @@ export default function ConsultationBookingModal({ isOpen, onClose, initialData 
               <a href="tel:+919899075518" className="flex items-center gap-2 no-underline text-walnut hover:text-terracotta transition-colors">
                 <Phone size={14} /> +91 98990 75518
               </a>
-              <a href="mailto:info@aspi.in" className="flex items-center gap-2 no-underline text-walnut hover:text-terracotta transition-colors">
-                <Mail size={14} /> info@aspi.in
+              <a href="mailto:brijesh@aspi.in" className="flex items-center gap-2 no-underline text-walnut hover:text-terracotta transition-colors">
+                <Mail size={14} /> brijesh@aspi.in
               </a>
             </div>
           </div>
@@ -131,11 +131,11 @@ export default function ConsultationBookingModal({ isOpen, onClose, initialData 
                 >
                   <option value="">Select…</option>
                   <option>Corporate Office</option>
-                  <option>Data Center / NOC</option>
-                  <option>Healthcare Facility</option>
-                  <option>Banking / Finance</option>
-                  <option>Retail / Showroom</option>
-                  <option>Industrial Office</option>
+                  <option>Commercial &amp; Retail</option>
+                  <option>Residential Living</option>
+                  <option>Hospitality &amp; Club</option>
+                  <option>Specialized Institutional</option>
+                  <option>Civil &amp; Infrastructure</option>
                 </select>
               </div>
               <div>

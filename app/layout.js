@@ -7,12 +7,16 @@ export const viewport = {
 };
 
 export const metadata = {
-  title: 'ASPI Engineering & Interiors | Premium Smart Office Fit-Outs & MEP Turnkey Delivery',
-  description: 'ASPI (aspi.in) specializes in premium smart office fit-outs, workplace MEP engineering, compliance management, and single-team turnkey project delivery across Gurugram, New Delhi (NCR) and pan-India.',
-  keywords: 'smart office fit outs, workplace engineering, MEP coordination, turnkey interior fitout, compliance management, testing and commissioning, Gurugram, Delhi NCR, aspi.in',
+  title: 'Art Space Interior Pvt. Ltd. (ASIPL) | Design, Build & Decore',
+  description: 'Art Space Interior Pvt. Ltd. (ASIPL) provides end-to-end turnkey interior fit-outs, in-house furniture manufacturing, MEP engineering, and civil infrastructure across 20+ prime Indian cities. Founded 11 September 2018 in Gurugram.',
+  keywords: 'Art Space Interior, ASIPL, aspi.in, turnkey solutions, interior fit-outs, MEP services, in-house manufacturing, corporate interiors, retail fitouts, luxury residential, Gurugram, Delhi NCR, Hyderabad, Bengaluru',
+  icons: {
+    icon: '/images/ASIPL_Logo.jpeg',
+    apple: '/images/ASIPL_Logo.jpeg',
+  },
   openGraph: {
-    title: 'ASPI Engineering & Interiors | SmartOffice Turnkey Fit-Outs & MEP',
-    description: 'Single-team turnkey workplace delivery integrating mechanical, electrical, and plumbing engineering into premium architectural interiors.',
+    title: 'Art Space Interior Pvt. Ltd. (ASIPL) | Design, Build & Decore',
+    description: 'Single-team turnkey interior solutions, in-house furniture manufacturing, and robust MEP engineering across India.',
     url: 'https://aspi.in',
     type: 'website',
   }

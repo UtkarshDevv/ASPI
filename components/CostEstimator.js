@@ -4,12 +4,12 @@ import React, { useState, useMemo } from 'react';
 import { ArrowRight, HelpCircle } from 'lucide-react';
 
 const projectTypes = [
-  { key: 'corporate', label: 'Corporate Office', rateRange: [3200, 4800] },
-  { key: 'datacenter', label: 'Server Room / NOC', rateRange: [5500, 8500] },
-  { key: 'healthcare', label: 'Healthcare Facility', rateRange: [4500, 7000] },
-  { key: 'banking', label: 'Banking / Finance', rateRange: [4000, 6000] },
-  { key: 'retail', label: 'Retail / Showroom', rateRange: [3500, 5500] },
-  { key: 'industrial', label: 'Industrial Office', rateRange: [2200, 3800] },
+  { key: 'corporate', label: 'Corporate Office', rateRange: [2800, 4500] },
+  { key: 'commercial', label: 'Commercial & Retail', rateRange: [3000, 5200] },
+  { key: 'residential', label: 'Residential Living', rateRange: [2500, 4800] },
+  { key: 'hospitality', label: 'Hospitality & Club', rateRange: [3800, 6500] },
+  { key: 'institutional', label: 'Institutional & Training', rateRange: [3200, 5000] },
+  { key: 'industrial', label: 'Industrial & Infra', rateRange: [2000, 3500] },
 ];
 
 const finishTiers = [

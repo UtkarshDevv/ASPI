@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Phone, ArrowUpRight } from 'lucide-react';
+import { Menu, X, ArrowUpRight } from 'lucide-react';
 
 export default function Navbar({ onOpenConsultation }) {
   const [scrolled, setScrolled] = useState(false);
@@ -15,7 +15,6 @@ export default function Navbar({ onOpenConsultation }) {
 
   const links = [
     { label: 'Projects', href: '#projects' },
-    { label: 'Gallery', href: '#gallery' },
     { label: 'Services', href: '#services' },
     { label: 'About', href: '#about' },
     { label: 'Clients', href: '#partners' },
@@ -30,20 +29,20 @@ export default function Navbar({ onOpenConsultation }) {
           : 'bg-transparent'
       }`}
     >
-      <div className="section-container flex items-center justify-between py-5">
+      <div className="section-container flex items-center justify-between py-3 sm:py-4">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-3 no-underline group">
-          <div className="w-10 h-10 border-2 border-charcoal flex items-center justify-center transition-colors duration-300 group-hover:bg-charcoal">
-            <span className="font-display text-charcoal text-sm font-bold tracking-widest group-hover:text-cream transition-colors duration-300">
-              A
-            </span>
-          </div>
+        <a href="#" className="flex items-center gap-3.5 no-underline group py-0.5">
+          <img
+            src="/images/ASIPL_Logo.jpeg"
+            alt="Art Space Interior (ASIPL) Logo"
+            className="h-12 sm:h-16 w-auto object-contain mix-blend-multiply transition-transform duration-300 group-hover:scale-105"
+          />
           <div className="flex flex-col">
-            <span className="font-display text-lg font-semibold tracking-[0.2em] text-charcoal">
-              ASPI
+            <span className="font-display text-lg sm:text-xl font-bold tracking-[0.18em] text-charcoal group-hover:text-terracotta transition-colors duration-300">
+              ASIPL
             </span>
-            <span className="text-[10px] tracking-[0.14em] text-walnut/60 uppercase">
-              Engineering & Interiors
+            <span className="text-[10px] sm:text-[11px] tracking-[0.14em] text-walnut/70 uppercase font-medium">
+              Art Space Interior
             </span>
           </div>
         </a>
@@ -90,11 +89,7 @@ export default function Navbar({ onOpenConsultation }) {
               </a>
             ))}
           </nav>
-          <div className="flex flex-col gap-3 pt-5">
-            <a href="tel:+919899075518" className="flex items-center gap-2 text-sm text-walnut no-underline">
-              <Phone size={14} className="text-terracotta" />
-              +91 98990 75518
-            </a>
+          <div className="pt-5">
             <button
               onClick={() => { setMenuOpen(false); onOpenConsultation(); }}
               className="btn-primary w-full justify-center py-3.5 text-xs"

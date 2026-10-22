@@ -11,10 +11,10 @@ const heroImages = [
 ];
 
 const stats = [
-  { value: '1.2M+', label: 'Sq.Ft Delivered' },
-  { value: '85+', label: 'Enterprise Clients' },
-  { value: '100%', label: 'MEP Accuracy' },
-  { value: '60-120', label: 'Day Turnkey Cycles' },
+  { value: '100+', label: 'Projects Delivered' },
+  { value: '10,00,000+', label: 'Sq.Ft Completed' },
+  { value: '2,00,000+', label: 'Products Delivered' },
+  { value: '20+', label: 'Prime Cities Pan-India' },
 ];
 
 export default function Hero({ onOpenConsultation, onScrollToEstimator }) {
@@ -49,21 +49,22 @@ export default function Hero({ onOpenConsultation, onScrollToEstimator }) {
       {/* Content */}
       <div className="relative z-10 section-container w-full pt-32 pb-20">
         <div className="max-w-2xl">
-          <p className="text-terracotta text-xs font-semibold tracking-[0.25em] uppercase mb-6">
-            SmartOffice-First Turnkey Delivery
-          </p>
+          <div className="inline-flex items-center gap-2 bg-terracotta/10 border border-terracotta/20 px-3 py-1 rounded-full mb-6">
+            <span className="w-2 h-2 rounded-full bg-terracotta animate-pulse" />
+            <p className="text-terracotta text-xs font-semibold tracking-[0.2em] uppercase">
+              Design, Build &amp; Decore • Est. 2018 Gurugram
+            </p>
+          </div>
 
           <h1 className="font-display text-3xl sm:text-5xl lg:text-6xl font-semibold text-charcoal leading-[1.15] mb-5 sm:mb-6">
-            Engineered
+            Transforming
             <br />
-            Workplaces,{' '}
-            <span className="text-terracotta italic font-serif font-light">Delivered.</span>
+            Raw Spaces Into{' '}
+            <span className="text-terracotta italic font-serif font-light">Living Excellence.</span>
           </h1>
 
           <p className="text-walnut/80 text-sm sm:text-base lg:text-lg leading-relaxed mb-8 sm:mb-10 max-w-lg">
-            Premium smart office fit-outs integrating MEP engineering,
-            compliance management, and architectural interiors — from concept
-            to handover.
+            Art Space Interior Private Limited (ASIPL) provides end-to-end turnkey interior fit-outs, in-house manufacturing, and robust MEP engineering across India.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-10 sm:mb-16">
