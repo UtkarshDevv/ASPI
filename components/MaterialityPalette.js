@@ -42,7 +42,7 @@ export default function MaterialityPalette() {
             </h2>
           </div>
           <p className="font-sans text-sm text-[#ADA69A] max-w-md font-light leading-relaxed">
-            We partner with leading global manufacturers to engineer connected workplaces—unifying Korean acoustic dampening, Japanese circadian lighting, and US composite solid surfaces.
+            We partner with leading global manufacturers to engineer connected workplaces—unifying Korean acoustic dampening, smart circadian lighting, and US composite solid surfaces.
           </p>
         </div>
 

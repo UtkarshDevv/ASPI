@@ -36,7 +36,7 @@ export default function ProjectsGallery({ onSelectProject }) {
             Featured Portfolio
           </h2>
           <p className="text-walnut/70 text-xs sm:text-sm max-w-xl mx-auto mt-2">
-            Explore authentic turnkey delivery across Fortune Global 500 corporate offices, Japanese multinationals, retail flagships, and luxury living.
+            Explore authentic turnkey delivery across Fortune Global 500 corporate offices, leading multinational enterprises, retail flagships, and luxury living.
           </p>
         </div>
 

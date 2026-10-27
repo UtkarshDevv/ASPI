@@ -149,7 +149,7 @@ export const whoWeServe = [
   {
     title: "Corporate Offices",
     description: "Smart, stylish, and functional headquarters that boost productivity and reflect your brand's character.",
-    examples: "Sumitomo Corp, Mitsubishi, Publicis Groupe, TATA AIG"
+    examples: "KDDI India, Publicis Groupe, TATA AIG, Indiabulls"
   },
   {
     title: "Commercial & Retail",
@@ -169,7 +169,7 @@ export const whoWeServe = [
   {
     title: "Specialized Institutional",
     description: "Cultural diplomatic centers, aircraft training simulators, and educational institutes with bespoke technical needs.",
-    examples: "The Japan Foundation, Frankfinn Aviation Institute"
+    examples: "Frankfinn Aviation Institute, Specialized Institutional Facilities"
   },
   {
     title: "Industrial & Manufacturing",
@@ -389,33 +389,30 @@ export const teamExperts = [
 ];
 
 export const realClients = [
-  { name: "Sumitomo Corporation", country: "Japan / India", sector: "Conglomerate" },
-  { name: "Mitsubishi Corporation", country: "Japan / India", sector: "Global Enterprise" },
-  { name: "The Japan Foundation", country: "Japan / India", sector: "Cultural Institution" },
   { name: "KDDI India", country: "Japan / India", sector: "Telecom & Tech" },
   { name: "Publicis Groupe", country: "Global / India", sector: "Advertising & Media" },
   { name: "Mulberry Projects", country: "India", sector: "Real Estate & Infrastructure" },
   { name: "TATA AIG", country: "India", sector: "Insurance" },
   { name: "Indiabulls Finance", country: "India", sector: "Banking & Finance" },
-  { name: "SLC Shimoda Trading", country: "Japan / India", sector: "Trading & Logistics" },
-  { name: "JFE Shoji India", country: "Japan / India", sector: "Steel & Industrial" },
   { name: "EWAC", country: "India", sector: "Industrial Technology" },
   { name: "Tashee Group", country: "India", sector: "Residential Development" },
   { name: "Lee Denim", country: "Global / India", sector: "Retail Apparel" },
   { name: "Speedo International", country: "Global / India", sector: "Sports Retail" },
   { name: "Frankfinn Institute", country: "India", sector: "Aviation & Education" },
+  { name: "Starcom India", country: "Global / India", sector: "Media & Strategy" },
+  { name: "Digitas India", country: "Global / India", sector: "Digital Transformation" },
+  { name: "Zenith Media", country: "Global / India", sector: "Media Investment" },
   { name: "One Bharat Pharmacy", country: "India", sector: "Healthcare Retail" },
-  { name: "Paarth Aadyant Club", country: "India", sector: "Hospitality & Leisure" },
-  { name: "JTB India", country: "Japan / India", sector: "Corporate Travel" }
+  { name: "Paarth Aadyant Club", country: "India", sector: "Hospitality & Leisure" }
 ];
 
 export const clientTestimonials = [
   {
     quote: "ASIPL delivered our facility with exceptional attention to detail. Their turnkey approach and seamless coordination between MEP and interior design made the entire process transparent and on schedule.",
-    client: "General Manager - Administration",
-    organization: "Sumitomo Corporation India Pvt. Ltd.",
+    client: "Head of Infrastructure & Real Estate",
+    organization: "TATA AIG General Insurance",
     location: "Gurugram / New Delhi NCR",
-    scope: "32,000 sq.ft Corporate Turnkey Fit-Out"
+    scope: "28,000 sq.ft Corporate Facility Fit-Out"
   },
   {
     quote: "We appreciate Art Space Interior Pvt. Ltd. for the successful and timely completion of our corporate office fit-out. Their team adhered strictly to high quality standards, statutory specifications, and safety guidelines.",

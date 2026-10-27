@@ -20,7 +20,7 @@ export default function PartnersClients() {
               Trusted By Industry Leaders
             </h2>
             <p className="text-walnut/70 max-w-xl mx-auto text-xs sm:text-sm leading-relaxed mb-2">
-              Global conglomerates, Japanese multinationals, financial enterprises, and leading retail brands trust ASIPL for their high-stakes fit-out and engineering projects.
+              Global conglomerates, multinational corporations, financial enterprises, and leading retail brands trust ASIPL for their high-stakes fit-out and engineering projects.
             </p>
             <p className="text-walnut/50 text-[11px]">
               Hover to pause

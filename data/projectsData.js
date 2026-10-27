@@ -62,7 +62,7 @@ export const aspiInfo = {
       code: "KDDI Vendor Clearance",
       title: "KDDI India Project Completion Certificates",
       issuer: "KDDI India Private Limited",
-      description: "Awarded multiple official project completion certificates for corporate office delivery including Shimoda Trading India and Cyber City facilities."
+      description: "Awarded multiple official project completion certificates for corporate office delivery and Cyber City enterprise workplace facilities."
     },
     {
       id: "mulberry-appreciation",
@@ -75,97 +75,6 @@ export const aspiInfo = {
 };
 
 export const projectsData = [
-  {
-    id: "sumitomo-corp-india",
-    title: "Sumitomo Corporation India Pvt. Ltd.",
-    category: "Corporate Headquarters & Japanese Conglomerate",
-    categoryKey: "corporate",
-    location: "Gurugram / New Delhi NCR",
-    year: "2023 - 2024",
-    area: "32,000 sq.ft",
-    capacity: "320 Workstations + Executive Lounges + Boardrooms",
-    timeline: "75 Days Turnkey",
-    client: "Sumitomo Corporation India",
-    leadConsultant: "ASIPL Corporate Workplace Engineering Team",
-    mepScope: "Concealed VRV HVAC, Acoustic Ceiling Baffles, Precision Power Distribution",
-    heroImage: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1800&q=85",
-    gallery: [
-      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1400&q=85",
-      "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1400&q=85",
-      "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1400&q=85"
-    ],
-    beforeImage: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1400&q=85",
-    afterImage: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1400&q=85",
-    description: "Turnkey workplace execution for the Fortune Global 500 Japanese conglomerate. Features an elegant marble reception portal, executive meeting suites, vibrant break-out zones, and high-density modular workstations with integrated electrical conduits.",
-    clientScope: [
-      "Grand reception lobby with backlit corporate signage and acoustic timber wall paneling",
-      "Modular workstation cluster with acoustic fabric screen dividers and wire management",
-      "Integrated linear LED lighting and concealed cassette HVAC distribution",
-      "Private conference rooms with speech privacy sound masking and AV video connectivity"
-    ],
-    materialsUsed: ["Italian Marble Reception", "Acoustic Fabric Dividers", "Concealed VRV AC", "Modular Carpet Tiles"],
-    tag: "Fortune Global 500"
-  },
-  {
-    id: "japan-foundation",
-    title: "The Japan Foundation",
-    category: "Cultural Center & Institutional Library",
-    categoryKey: "commercial",
-    location: "New Delhi, India",
-    year: "2023",
-    area: "16,500 sq.ft",
-    capacity: "Library Circulation, Reading Lounges & Cultural Suites",
-    timeline: "60 Days Turnkey",
-    client: "The Japan Foundation",
-    leadConsultant: "ASIPL Cultural & Architectural Division",
-    mepScope: "Low-Decibel Climate Control, High-CRI Diffused Lighting & Fire Protection",
-    heroImage: "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=1800&q=85",
-    gallery: [
-      "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=1400&q=85",
-      "https://images.unsplash.com/photo-1507842229451-7f01be8610ce?auto=format&fit=crop&w=1400&q=85"
-    ],
-    beforeImage: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1400&q=85",
-    afterImage: "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=1400&q=85",
-    description: "Turnkey interior execution for Japan's premier cultural diplomatic institution. Completed the main library circulation desk, modern reading lounge with biophilic planters, customized open-shelving book archives, and acoustic private study booths.",
-    clientScope: [
-      "Custom geometric front desk millwork with indirect warm LED illumination",
-      "Specialized high-capacity book storage racks and circulation check-in systems",
-      "Biophilic green plant integration into central study tables for natural tranquility",
-      "Sound-damped acoustic ceiling grid with precision round fixture luminaires"
-    ],
-    materialsUsed: ["White Solid Surface Desk", "Acoustic Plasterboard", "High-CRI Glare-Free LED", "Biophilic Planters"],
-    tag: "Institutional & Cultural"
-  },
-  {
-    id: "mitsubishi-corp-india",
-    title: "Mitsubishi Corporation India Pvt. Ltd.",
-    category: "Executive Boardroom & Corporate Suites",
-    categoryKey: "corporate",
-    location: "Barakhamba Road / New Delhi NCR",
-    year: "2024",
-    area: "24,000 sq.ft",
-    capacity: "Executive Suites + 28-Seat Boardroom + Reception",
-    timeline: "70 Days Turnkey",
-    client: "Mitsubishi Corporation India",
-    leadConsultant: "ASIPL Luxury Corporate Atelier",
-    mepScope: "Dual UPS Redundancy, Precision Boardroom Audio-Visual Integration & DALI Lighting",
-    heroImage: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=85",
-    gallery: [
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=85",
-      "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1400&q=85"
-    ],
-    beforeImage: "https://images.unsplash.com/photo-1541888946425-d0fbb18f15f6?auto=format&fit=crop&w=1400&q=85",
-    afterImage: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=85",
-    description: "High-spec executive workplace fit-out for Mitsubishi Corporation India. Features an expansive monolithic reception with natural stone wall cladding, frosted security glazing, and a monumental 28-seat boardroom with concealed linear MEP services.",
-    clientScope: [
-      "Italian Statuario marble feature reception with backlit brass corporate insignia",
-      "Monumental oval executive conference table with integrated multi-point AV connectivity",
-      "Coffered acoustic ceiling with perimeter recessed LED cove lighting",
-      "Full statutory electrical safety approvals and building inspectorate clearances"
-    ],
-    materialsUsed: ["Italian Marble Cladding", "Curved Walnut Conference Table", "Double-Glazed Acoustic Glass", "DALI-2 Lighting"],
-    tag: "Japanese Conglomerate"
-  },
   {
     id: "mulberry-projects-publicis",
     title: "Mulberry Projects & Publicis Groupe Campus",
@@ -198,16 +107,16 @@ export const projectsData = [
     tag: "Letter of Appreciation"
   },
   {
-    id: "slc-shimoda-trading",
-    title: "SLC Shimoda Trading India Pvt. Ltd.",
-    category: "Japanese Corporate Office (KDDI Certified)",
+    id: "kddi-india-corporate",
+    title: "KDDI India Private Limited",
+    category: "Corporate Headquarters & Telecom Facility",
     categoryKey: "corporate",
     location: "Gurugram, Haryana",
     year: "2023",
     area: "14,500 sq.ft",
     capacity: "120 Workstations + Boardrooms + Storage Archive",
     timeline: "50 Days Fast-Track",
-    client: "SLC Shimoda Trading / KDDI India",
+    client: "KDDI India Private Limited",
     leadConsultant: "ASIPL Project Execution Division",
     mepScope: "Full Electrical, Data Networking, Fire Detection & Modular AC",
     heroImage: "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1800&q=85",
@@ -217,7 +126,7 @@ export const projectsData = [
     ],
     beforeImage: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1400&q=85",
     afterImage: "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1400&q=85",
-    description: "Delivered under KDDI India Private Limited with an official Project Completion Certificate. Included sleek company entrance branding, warm timber wall panelling, executive conference room, modular workstations, and complete MEP infrastructure delivered with zero defects.",
+    description: "Turnkey corporate workplace execution delivered for KDDI India Private Limited with an official Project Completion Certificate. Included sleek corporate entrance branding, warm timber wall panelling, executive conference room, modular workstations, and complete MEP infrastructure delivered with zero defects.",
     clientScope: [
       "Corporate reception counter with 3D metallic logo and directional lighting",
       "Conference suite with wall-mounted smart presentation screens and acoustic partitions",

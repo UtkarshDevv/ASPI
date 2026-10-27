@@ -71,7 +71,7 @@ export default function About() {
                 <strong>ASIPL (Art Space Interior Private Limited)</strong> began its journey on <strong>11 September 2018 in Gurugram</strong> with one mission: to transform spaces through innovative design, precise execution, and long-lasting impact. Since then, we have earned a distinguished reputation for delivering high-quality interior and construction solutions.
               </p>
               <p>
-                With everything under one roof—from architectural spatial planning to in-house manufacturing, MEP engineering, and installation—we ensure a smooth, transparent client experience. Over the years, we have delivered <strong>100+ projects</strong> for leading multinational corporations, Japanese conglomerates, retail flagships, and luxury residences across the country.
+                With everything under one roof—from architectural spatial planning to in-house manufacturing, MEP engineering, and installation—we ensure a smooth, transparent client experience. Over the years, we have delivered <strong>100+ projects</strong> for leading multinational corporations, Fortune 500 enterprises, retail flagships, and luxury residences across the country.
               </p>
               <p>
                 Our relentless focus on detail, round-the-clock on-site support, and dedicated factory production setup make Art Space Interior Pvt. Ltd. one of India's most dependable turnkey partners. With creative design experts and disciplined on-ground engineers, we turn raw spaces into functional, inspiring environments.

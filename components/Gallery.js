@@ -5,12 +5,12 @@ import React, { useState } from 'react';
 const galleryImages = [
   {
     src: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=900&q=85',
-    alt: 'Sumitomo Corporation India - Corporate Workstation Cluster',
+    alt: 'KDDI India - Certified Corporate Workplace & Workstations',
     span: 'col-span-2 sm:col-span-2 sm:row-span-2',
   },
   {
     src: 'https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=600&q=85',
-    alt: 'Mitsubishi Corporation - C-Suite Executive Boardroom',
+    alt: 'TATA AIG - C-Suite Executive Meeting Suites & Partitions',
     span: 'col-span-1 sm:col-span-1 sm:row-span-1',
   },
   {
@@ -19,8 +19,8 @@ const galleryImages = [
     span: 'col-span-1 sm:col-span-1 sm:row-span-1',
   },
   {
-    src: 'https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=600&q=85',
-    alt: 'The Japan Foundation - Cultural Library & Circulation Portal',
+    src: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=600&q=85',
+    alt: 'Frankfinn Aviation Institute - High-Tech Fuselage Simulator & Lounges',
     span: 'col-span-1 sm:col-span-1 sm:row-span-1',
   },
   {
@@ -30,7 +30,7 @@ const galleryImages = [
   },
   {
     src: 'https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=600&q=85',
-    alt: 'SLC Shimoda Trading - Sleek Reception & Timber Paneling',
+    alt: 'KDDI India - Sleek Corporate Reception & Timber Paneling',
     span: 'col-span-1 sm:col-span-1 sm:row-span-1',
   },
   {
