@@ -290,7 +290,7 @@ export default function ConsultationBookingModal({ isOpen, onClose, initialData 
               {isSubmitting ? (
                 <>
                   <Loader2 size={16} className="animate-spin" />
-                  <span>Dispatching Enquiry via SMTP…</span>
+                  <span>Loading…</span>
                 </>
               ) : (
                 <>
